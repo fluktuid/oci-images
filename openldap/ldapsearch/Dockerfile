@@ -30,6 +30,7 @@ RUN adduser \
 ############################
 FROM scratch
 LABEL maintainer="Lukas Paluch <fluktuid@users.noreply.github.com>"
+LABEL org.opencontainers.image.source https://github.com/fluktuid/oci-images
 
 ENV UID=10001
 # import certificates from builder
